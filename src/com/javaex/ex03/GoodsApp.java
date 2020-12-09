@@ -20,8 +20,8 @@ public class GoodsApp {
       		   break;
       	   }
       	   
-      	   String[] inputSplit = input.split(",");
-      	   Goods g = new Goods(inputSplit[0], Integer.parseInt(inputSplit[1]), Integer.parseInt(inputSplit[2]));
+      	   String[] inputs = input.split(",");
+      	   Goods g = new Goods(inputs[0], Integer.parseInt(inputs[1]), Integer.parseInt(inputs[2]));
       	   gList.add(g);
       	   
          }
